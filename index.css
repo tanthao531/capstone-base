@@ -1,0 +1,184 @@
+
+#header .container-fluid {
+    margin-top: -20px;
+    margin-bottom: -35px;
+}
+#header {
+    background-color: white;
+    background-color: transparent; 
+    position: sticky;
+    top: 0;
+    /* border-bottom: 1px solid rgb(109, 108, 108, 0.2); */
+}
+.navbar-collapse {
+    flex-grow: 0;
+    gap: 400px;
+}
+.navbar-nav {
+    display: flex;
+    gap: 30px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.nav-link:hover {
+    color: rgb(68, 115, 247);
+}
+
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(129, 115, 115);
+}
+.dropdown-item {
+    color: rgb(129, 115, 115);
+}
+.dropdown-item:hover {
+    color: rgb(68, 115, 247);
+}
+.signin {
+    display: flex;
+    gap: 20px;
+}
+.signin a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    position: relative;
+    z-index: 4;
+}
+.signin .Sign-Up {
+    padding: 13px 30px;
+    border-radius: 30px;
+    background-color: rgb(78 107 255);
+}
+.signin .Sign-Up:hover {
+     box-shadow: 0px 5px 50px rgba(120, 120, 230, 0.5);
+}
+.carousel-left {
+    margin: 120px auto;
+    padding-right: 800px;
+
+}
+.carousel-left h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.carousel-left p {
+    margin-bottom: 30px;
+    margin-right: 100px;
+}
+.carousel-left .bt1 {
+    margin-top: 5px;
+    padding: 13px 30px;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 50px;
+    background-color: rgb(78 107 255);
+}
+.carousel-left .bt1:hover {
+    box-shadow: 0px 5px 50px rgba(120, 120, 230, 0.5);
+}
+.carousel-left .bt2 {
+    text-align: left;
+    padding-left: 0;
+    padding-bottom: 0;
+    font-size: 18px;
+    font-weight: 500; 
+}
+.carousel-left .flex-column span{
+    font-size: 17px;
+    font-weight: 500;
+    opacity: 1;
+}
+
+.carousel-left{
+ animation: fadeInLeft;
+    animation-delay: 0.5s;
+    animation-duration: 2s;
+
+
+}
+
+ @keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+ }
+
+.carousel-right {
+    width: 40%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+
+}
+.carousel-right .hero {
+    background-color: #3580d1;
+    border-radius: 400px 0px 490px 660px;
+
+}
+.carousel-right .shape1 {
+    position: absolute;
+    top: 40%;
+    left: -10%;
+}
+.carousel-right .shape2 {
+    position: absolute;
+    bottom: 0;
+    right: 22%; 
+}
+.carousel-right .shape3 {
+    position: absolute;
+    bottom: 11%;
+    left: 15%;
+}
+
+#features .icon1 {
+   background-color: rgb(243, 106, 141);
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+#features .icon2 {
+   background-color: rgb(32 202 102 );
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+#features .icon3 {
+   background-color: rgb(250 145 97);
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#features .features-item {
+    animation: fadeInDown;
+    animation-delay: 0.5s;
+    animation-duration: 2s;
+}
+
+ @keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+ }

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASE BOOTSTRAP</title>
+
+    <!-- Link bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="index.css">
+
+
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid w-75">
+    <a class="navbar-brand pt-0" href="#">
+      <img src="logo-light.svg" alt="Logo" width="130" height="130" class="d-inline-block align-text-top" id="sun">
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-lg-0 align-top">
+        <li class="nav-item">
+          <a class="nav-link active text-primary" aria-current="page" href="#" >Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Pages
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-compact-down" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67"/>
+</svg>
+          </a>
+          <ul class="dropdown-menu p-3 pe-5">
+            <li><a class="dropdown-item bg-white fw-medium" href="#">Blog Grid</a></li>
+            <li><a class="dropdown-item bg-white fw-medium" href="#">Blog Single</a></li>
+            <li><a class="dropdown-item bg-white fw-medium" href="#">Sign In</a></li>
+            <li><a class="dropdown-item bg-white fw-medium" href="#">Sign Up</a></li>
+            <li><a class="dropdown-item bg-white fw-medium" href="#">404</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Support</a>
+        </li>
+      </ul>
+      <div class="signin d-flex align-items-center">
+        <a href="">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" class="bi bi-brightness-high" viewBox="0 0 17 17">
+  <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/>
+</svg></a>
+        <a class="Sign-In" href="#">Sign In</a>
+        <a class="Sign-Up" href="#">Sign Up</a>
+      </div>
+    </div>
+  </div>
+</nav>
+    </header>
+      <div class="carousel-left w-75 d-flex flex-column justify-content-start align-items-start">
+        <h1>We specialize in UI/UX, Web Development, Digital Marketing.</h1>
+        <p class="text-secondary fw-medium opacity-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla magna mauris. Nulla fermentum viverra sem eu rhoncus consequat varius nisi quis, posuere magna.</p>
+        <div class="d-flex gap-4">
+          <div>
+            <a href="#" class="btn btn-primary bt1">Get Started Now</a>
+          </div>
+          <div class="d-flex flex-column">
+            <a href="#" class="btn bt2">Call us (0123) 456-789</a>
+            <span class="text-secondary">For any question or concern</span>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-right">
+        <img src="hero.png" alt="Carousel Image" class="hero">
+        <img src="shape-01.svg" alt="" class="shape1">
+        <img src="shape-02.svg" alt="" class="shape2">
+        <img src="shape-03.svg" alt="" class="shape3">
+      </div>
+
+<section id="features" class="my-5 py-5">
+  <div class="container-fluid w-75 py-5 d-flex justify-content-center ">
+    <div class="features-item d-flex gap-4 mx-2 px-3">
+      <img src="icon-01.svg" alt="" class="icon1">
+      <div>
+        <h3>24/7 Support</h3>
+        <p class="text-secondary fw-medium opacity-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div class="features-item d-flex gap-4 mx-2 px-3">
+      <img src="icon-02.svg" alt="" class="icon2">
+      <div>
+        <h3>Take Ownership</h3>
+        <p class="text-secondary fw-medium opacity-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div class="features-item d-flex gap-4 mx-2 px-3">
+      <img src="icon-03.svg" alt="" class="icon3">
+      <div>
+        <h3>Team Work</h3>
+        <p class="text-secondary fw-medium opacity-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
